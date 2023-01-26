@@ -6,6 +6,12 @@ body {
   margin: 0 auto;
 }
 
+.missionBody {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 .poster {
   width: 720px;
   background-color: #ffffff;
@@ -104,7 +110,6 @@ span {
 /* Cover Page */
 .coverbody {
   margin: 0 auto;
-  width: 420px;
 }
 
 .outer::after {
@@ -115,10 +120,9 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('https://i.pinimg.com/564x/83/a7/c7/83a7c7539dc6deeb58628a4fd1f04f89.jpg')
-    no-repeat center;
+  background: url('/img/lockscreen.jpg') no-repeat center;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
 }
 
 .outer a {
