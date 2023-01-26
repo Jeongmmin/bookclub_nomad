@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', 'Montserrat';
+  margin: 15px;
+}
+
+.poster {
+  width: 720px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+header {
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+header > span {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+header span:first-child {
+  color: rgb(142, 181, 255);
+  font-size: 38px;
+}
+.tips__upper,
+.tips__lower {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0px 30px;
+}
+
+.tips {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+.tips__title {
+  margin-top: 40px;
+}
+
+span {
+  margin: 5px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.logo img {
+  width: 85px;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo img:hover {
+  transform: scale(1.2);
+}
+
+.monthsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.months {
+  display: flex;
+}
+
+.smart {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: rgb(142, 181, 255);
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: rgba(92, 92, 92, 0.3) 8px 8px 15px,
+    rgba(221, 216, 216, 0.22) 8px 8px 15px;
+}
+
+.smart div {
+  text-align: center;
+  margin: 10px 0 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid lightgray;
+  font-size: 18px;
+}
